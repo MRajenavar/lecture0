@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<title>Check the Print Preview</title>
+
+<style>
+@media print {
+  .only-screen {
+      display : none;
+  }
+}
+p {
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<p>This the First paragraph</p>
+<p>This is  the second paragraph</p>
+<p class="only-screen">This is the Third Paragraph, which you will never get in printout</p>
+</body>
+</HTML>
